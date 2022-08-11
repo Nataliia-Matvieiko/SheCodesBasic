@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      name="viewport"
+    />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <title>Weather App</title>
+    <style>
+      body {
+        text-align: center;
+      }
+
+      h1 {
+        color: #1a59d3;
+        font-size: 27px;
+        margin-bottom: 5px;
+      }
+
+      .current-temperature {
+        font-size: 23px;
+      }
+
+      h2 {
+        font-size: 18px;
+        margin: 0 0 15px 0;
+      }
+
+      .day-item {
+        margin: 0 auto;
+        min-width: 270px;
+        padding: 18px;
+        width: fit-content;
+      }
+
+      .day-item:hover {
+        background-color: #fffaee;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+      }
+
+      button {
+        background-color: #1a59d3;
+        border: 1px solid royalblue;
+        border-radius: 99px;
+        box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.4);
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+        margin: 30px 0 20px 0;
+        padding: 20px 25px;
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        background-color: brown;
+      }
+
+      .author {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      🌤<br />
+      Currently 27° in Split
+    </h1>
+    <div class="current-temperature">
+      33° /
+      <strong>23°</strong>
+    </div>
+
+    <div class="day-item">
+      <h2>☀️&nbsp;&nbsp;Tomorrow</h2>
+      <div>
+        23° /
+        <strong>33°</strong>
+      </div>
+    </div>
+
+    <div class="day-item">
+      <h2>🌤&nbsp;&nbsp;Monday</h2>
+      <div>
+        22° /
+        <strong>33°</strong>
+      </div>
+    </div>
+
+    <div class="day-item">
+      <h2>⛈️&nbsp;&nbsp;Tuesday</h2>
+      <div>
+        23° /
+        <strong>34°</strong>
+      </div>
+    </div>
+
+    <button>Change city</button>
+
+    <div class="author">Coded by Nataliia Matvieiko</div>
+  </body>
+</html>

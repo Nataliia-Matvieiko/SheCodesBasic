@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      name="viewport"
+    />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <title>Greek Yogurt 🥛</title>
+    <style>
+      body {
+        background: radial-gradient(
+          circle at 7.5% 24%,
+          rgb(237, 161, 193) 0%,
+          rgb(250, 178, 172) 25.5%,
+          rgb(190, 228, 210) 62.3%,
+          rgb(215, 248, 247) 93.8%
+        );
+      }
+
+      .logo {
+        width: 150px;
+      }
+
+      h1 {
+        color: #7d51e8;
+        text-align: center;
+      }
+
+      h2 {
+        border: 1px solid #7d51e8;
+        border-radius: 15px;
+        font-size: 18px;
+        padding: 20px;
+        text-align: center;
+      }
+
+      img {
+        border-radius: 10px;
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+      }
+
+      p {
+        font-size: 13px;
+        line-height: 1.5;
+        margin: 20px 0 10px 0;
+      }
+
+      button {
+        background: #7d51e8;
+        border: none;
+        border-radius: 30px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        color: white;
+        display: block;
+        font-size: 18px;
+        margin: 20px auto;
+        padding: 15px 20px;
+        transition: all 200ms ease-in-out;
+        width: 80%;
+      }
+
+      button:hover {
+        cursor: pointer;
+        opacity: 0.9;
+      }
+
+      .container {
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 20px;
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 30px 60px;
+      }
+
+      .learn-more {
+        color: #7d51e8;
+        font-size: 12px;
+        text-decoration: none;
+      }
+
+      .learn-more:hover {
+        text-decoration: underline;
+      }
+
+      .footer {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        alt="She Codes Foundation Logo"
+        class="logo"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/042/849/original/logo-shecodes-f9fa0540d113c086f61eb6e89466c0cbd24a42163b6a96d4b01da078803f53ee.png?1659751248"
+      />
+      <h1>I love Yogurt!</h1>
+      <h2>Especially Greek Yogurt</h2>
+      <img
+        alt="Greek Yogurt"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/042/848/original/greek-yogurt.jpg?1659750810"
+      />
+      <h2>What's the Difference Between Greek and Regular Yogurt?</h2>
+      <p>Yogurt is a fermented dairy product that’s popular worldwide.</p>
+
+      <p>
+        In recent years, a specific type called Greek yogurt has taken off among
+        health enthusiasts.
+      </p>
+      <p>
+        Both Greek and regular yogurt are packed with high quality nutrients and
+        offer multiple health benefits, but you may wonder what sets them apart.
+      </p>
+      <p>
+        This article explains the differences between Greek and regular yogurt
+        to help you determine which to choose. a bowl of fresh blueberries
+        topped with yogurt
+      </p>
+
+      <h2>How they’re made</h2>
+
+      <p>
+        Regular and Greek yogurt are cultured (or fermented) dairy products,
+        along with sour cream, buttermilk, and kefir.
+      </p>
+
+      <p>
+        Fermented dairy products are made by converting lactose — milk’s
+        naturally occurring sugar — into lactic acid by using certain bacteria,
+        also called starter cultures.
+      </p>
+
+      <p>
+        In fact, both regular and Greek yogurt are made with the same main
+        ingredients — fresh milk, plus Streptococcus thermophilus and
+        Lactobacillus bulgaricus as starter cultures.
+      </p>
+
+      <p>Yet, their taste and nutrients differ due to how they’re made.</p>
+
+      <a
+        class="learn-more"
+        href="https://en.wikipedia.org/wiki/Strained_yogurt"
+      >
+        📖&nbsp Learn more on Wikipedia
+      </a>
+
+      <br />
+
+      <button class="buy-button">👉🏻 Buy Greek Yogurt</button>
+      <p class="footer">
+        Coded by
+        <a
+          href="https://www.shecodesfoundation.org/candidates/nataliia-matvieiko-ukrainian"
+          target="_blank"
+          >Nataliia Matvieiko</a
+        >&nbsp👩🏻‍💻with <a href="https://www.shecodes.io">SheCodes</a>&nbsp help
+        using HTML, CSS and JavaScript
+      </p>
+    </div>
+    <script>
+      function buy() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+        let emoji = prompt("What is your favorite emoji?");
+
+        alert(
+          `Thank you ${name}! We'll be in touch by email, meanwhile have lot of Yogurt! ${emoji}`
+        );
+      }
+
+      let buyButton = document.querySelector(".buy-button");
+      buyButton.addEventListener("click", buy);
+    </script>
+  </body>
+</html>
